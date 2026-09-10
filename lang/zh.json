@@ -33,6 +33,7 @@
   "col.item": "物品",
   "col.stock": "库存",
   "btn.add_item": "添加物品",
+  "btn.edit_stock": "编辑库存",
   "btn.add_category": "添加类别",
   "btn.remove_selected": "删除选中",
   "item.add_title": "添加物品",

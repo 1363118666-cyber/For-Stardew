@@ -33,6 +33,7 @@
   "col.item": "Item",
   "col.stock": "Stock",
   "btn.add_item": "Add item",
+  "btn.edit_stock": "Edit stock",
   "btn.add_category": "Add category",
   "btn.remove_selected": "Remove selected",
   "item.add_title": "Add item",
