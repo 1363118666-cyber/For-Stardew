@@ -1,0 +1,16 @@
+{
+  "game_path": "",
+  "profiles_path": "",
+  "backup_dir": "",
+  "ui_language": "auto",
+  "ai": {
+    "provider": "opencodego",
+    "api_base": "https://opencode.ai/zen/go/v1",
+    "model": "deepseek-v4-flash-vision-exp",
+    "api_key": "",
+    "api_key_env": "OPENCODEGO_API_KEY",
+    "max_tokens": 16000,
+    "token_param": "max_tokens",
+    "extra_headers": {}
+  }
+}

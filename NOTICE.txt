@@ -1,0 +1,34 @@
+AliveNPCs Economy NPC Builder
+=============================
+
+An unofficial, fan-made tool for editing the AliveNpcs Economy mod's
+npc_profiles.json. Not affiliated with or endorsed by the authors of Stardew
+Valley or of AliveNpcs Economy.
+
+Third-party components and attribution
+--------------------------------------
+
+1) LZX decompression (core/xnb.py)
+   The LZX decoder is a Python port of MonoGame's LzxDecoder.cs, which itself
+   ports libmspack's lzxd.c. That code is dual-licensed under the GNU Lesser
+   General Public License (LGPL) and the Microsoft Public License (MS-PL).
+   See:
+     - MonoGame:  https://github.com/MonoGame/MonoGame (LzxDecoder.cs)
+     - libmspack: https://www.cabextract.org.uk/libmspack/
+   Redistributions must preserve this notice.
+
+2) Stardew Valley game data
+   The item catalog is derived from the user's own installed copy of Stardew
+   Valley (Content/Data/Objects.xnb) at build time. Stardew Valley is
+   (c) ConcernedApe. This tool ships no game assets; it reads the player's
+   installed files locally.
+
+3) AI provider
+   Natural-language features call an OpenAI-compatible endpoint configured by
+   the user (default: OpenCode Zen / opencodego). The user supplies their own
+   API key; no key is bundled with this software.
+
+License of this tool
+--------------------
+Provided as-is for personal use. Respect the licenses and terms of the mods and
+services you use it with.
