@@ -3,6 +3,8 @@
   "profiles_path": "",
   "backup_dir": "",
   "ui_language": "auto",
+  "item_language": "auto",
+  "allow_unverified_items": true,
   "ai": {
     "provider": "opencodego",
     "api_base": "https://opencode.ai/zen/go/v1",

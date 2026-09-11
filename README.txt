@@ -51,11 +51,25 @@ UI LANGUAGE
   the values). It is picked up automatically - no rebuild needed. Missing keys
   fall back to English. Community translations are welcome as pull requests.
 
+KNOWN LIMITATIONS
+- Flavored artisan goods (Strawberry Wine, Mango Jelly, Grape Juice, ...) are
+  NOT separate items in Stardew Valley. The game generates them at runtime from
+  a base item (Wine / Jelly / Juice / Pickles / Dried Fruit) plus a "flavor"
+  (the fruit/vegetable). They have no individual item id in the game data.
+  Because of this, the tool can only offer the base item (e.g. "Wine"), and the
+  mod itself does not handle flavors either. If you want NPCs to trade specific
+  flavors, that needs support in the mod itself - please ask the mod author.
+
 ITEM NAMES (works in any language, no translation needed)
 - The item picker/resolver can understand your language by reading the
   localized item names from YOUR OWN game files. Click "Localize item names"
   (or run `localize-items`) once. It reads
   Content/Strings/Objects.<locale>.xnb and caches the names locally.
+- It also indexes non-Object items (weapons, clothing, trinkets, ...), so you
+  can search them by name and the tool writes the correct item id for you.
+- "item_language" controls the item-name language (default "auto" = same as
+  "ui_language"); set it to e.g. "zh" to get Chinese item names with an
+  English UI.
 
 SAFETY
 - Every write is validated, previewed, and backed up first; the file is never
