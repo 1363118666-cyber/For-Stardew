@@ -28,6 +28,7 @@
   "item.notfound_msg": "No item matches \u201c{raw}\u201d.",
   "item.choose_title": "Choose item: {raw}",
   "item.choose_hint": "Pick one (never guessed automatically):",
+  "item.use_as_is": "Use \"{raw}\" as-is (unverified)",
   "common.ok": "OK",
   "common.cancel": "Cancel",
   "col.item": "Item",

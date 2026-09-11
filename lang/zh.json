@@ -28,6 +28,7 @@
   "item.notfound_msg": "没有找到与\u201c{raw}\u201d匹配的物品。",
   "item.choose_title": "选择物品：{raw}",
   "item.choose_hint": "请选择一个（不会自动猜测）：",
+  "item.use_as_is": "按原样使用「{raw}」（未验证）",
   "common.ok": "确定",
   "common.cancel": "取消",
   "col.item": "物品",
