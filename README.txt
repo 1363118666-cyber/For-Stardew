@@ -34,6 +34,14 @@ USE
 7. Click "Apply changes (save)". The tool validates -> shows the diff -> backs up -> writes.
 8. Made a mistake? Click "Rollback last backup".
 
+ITEMS OUTSIDE THE BUILT-IN LIST
+- You can type a Stardew item id directly, e.g. (O)475, (W)11, (F)1234. The tool
+  writes it as-is (no lookup needed).
+- Or type any exact item name. If it isn't in the built-in list, the tool offers
+  "Use as-is" and writes it unchanged (with a warning). The game/mod resolves it
+  by name, in English or your game's language.
+- Prefer strict checking? Set "allow_unverified_items": false in config.json.
+
 UI LANGUAGE
 - Set "ui_language" in config.json to a code such as "en", "zh", "ja", "es",
   "pt", "de", "fr", "ru", "ko", "it", "tr" (or a name like "English"); default
